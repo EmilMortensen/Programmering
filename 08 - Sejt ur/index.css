@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Alumni+Sans;
+}
+
+body{
+    display:grid;
+    grid-template-rows:repeat(3, 1fr);
+    height:100vh;
+}
+
+header{
+    background-color:grey;
+    display:grid;
+    align-items:center;
+    overflow:hidden;
+}
+
+#sek{
+    padding: 0.5rem;
+    border: solid black;
+    display:grid;
+    justify-content:end;
+    height:100%;
+    width:0%;
+    background-color:palevioletred;
+    align-items: end;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#min{
+    padding: 0.5rem;
+    border: solid black;
+    display:grid;
+    justify-content:end;
+    height:100%;
+    width:0;
+    background-color:darkgreen;
+    align-items: end;
+    transition: all 2s ease-out;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#timer{
+    padding: 0.5rem;
+    border: solid black;
+    display:grid;
+    justify-content:end;
+    height:100%;
+    width:0;
+    background-color:orange;
+    align-items: end;
+    transition: all 2s ease-out;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+main{
+    display:grid;
+    background-color: grey;
+}
+
+
+footer{
+    background-color: grey;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Quicksand';
+}
+
+body{
+    display:grid;
+    grid-template-rows:1fr 10fr 1rem;
+    height:100vh;
+}
+
+header{
+    background-color:black;
+    display:grid;
+    place-items:center;
+}
+
+#button{
+    color: white;
+    border:1px solid white;
+    padding: 1rem;
+    cursor:pointer;
+    transition:all .3s ease-in-out;
+}
+
+#button:hover{
+    transform:scale(1.2);
+    border-radius: 2rem;
+}
+
+main{
+    background-color:grey;
+    display:grid;
+    place-items:center;
+}
+
+#tid{
+    border-radius:0;
+    font: size 4rem;
+    border:.3rem solid white;
+    padding:2rem;
+    height:25vh;
+    width:20vh;
+    display:grid;
+    place-items:center;
+    transition:.4s all ease-in-out;
+}
+
+#tid:hover{
+    background-color:white;
+}
+
+footer{
+    background-color:orange;
+    transition:1s all ease-in-out;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

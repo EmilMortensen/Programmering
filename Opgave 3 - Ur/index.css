@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Alumni+Sans;
+}
+
+body{
+    display:grid;
+    grid-template-rows:repeat(3, 1fr);
+    height:100vh;
+}
+
+header{
+    background-color: black;
+    display:grid;
+    align-items:center;
+    overflow:hidden;
+}
+
+#varcheck{
+    height:30vh;
+    width:16vw;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:50%;
+    transition:all .6s ease-in-out;
+}
+
+main{
+    display:grid;
+    place-items:center;
+    background-color:white;
+}
+
+#ur{
+    display:grid;
+    color:black;
+    grid-auto-flow:column;
+    font-size:20vh;
+}
+
+footer{
+    background-color:red;
+}

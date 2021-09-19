@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Open+Sans+Condensed;
+}
+
+body{
+    display:grid;
+    grid-template-rows:repeat(3, 1fr);
+    height:100vh;
+}
+
+header{
+    background-color:black;
+    display:grid;
+    align-items:center;
+    overflow:hidden;
+}
+
+#thomas{
+    height:30vh;
+    width:16vw;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:50%;
+    transition:all .6s ease-in-out;
+}
+
+main{
+    display:grid;
+    place-items:center;
+    background-color:rgb(51, 47, 47);
+}
+
+#ur{
+    display:grid;
+    grid-auto-flow:column;
+    font-size:20vh;
+}
+
+footer{
+    background-color:rgb(97, 90, 90);
+}

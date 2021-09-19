@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color:black;
+    margin:0;
+    display:grid;
+    place-items:center;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+}
+
+h1{
+    margin:0;
+    padding:1rem;
+    font-size:3rem;
+    font-family:'roboto';
+    color: green;
+    text-align: center;
+}
+
+.boks{
+    border:6px solid green;
+    width:39vw;
+    padding: 2rem;
+    font-family: monospace;
+    color: hotpink;
+}

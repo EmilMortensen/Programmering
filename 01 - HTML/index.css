@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(120, 21, 125);
+    margin:0;
+    padding:0;  
+
+}
+
+.skyr{
+    background-color: rgb(0, 0, 0.4);
+    margin:29.5%;
+    display:grid;
+    place-items:center;
+    gap:2rem;
+    border-radius:2%;
+}
+
+
+.skyr img:hover{
+    transform:scale(110%)
+
+}
+
+
+.skyr img{
+    width:20vw;
+    border-radius:10%;
+    cursor:pointer;
+    transition:.3s ease-in-out
+}
+
+h1{
+    margin:0;
+    color: salmon;
+    font-size: 7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
