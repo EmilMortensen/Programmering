@@ -5,3 +5,46 @@
     box-sizing:border-box;
     font-family:'Grechen+Fuemen';
 }
+
+body{
+    height: 100vh;
+    width:100vw;
+}
+
+header{
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}
+
+input{
+    width:80vw;
+    font-size: 2rem;
+    border-radius: 1rem;
+    outline:none;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+main{
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    padding:1rem;
+}
+
+.kort{
+    display:grid;
+    place-items: center;
+    background-color:black;
+    height: 10rem;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 10px 0px 10px 2px aqua;
+    transition:all .3s ease-in-out;
+}
+
+.kort:hover{
+    transform: scale(1.1);
+}
