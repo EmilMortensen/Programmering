@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Grechen+Fuemen';
+}
+
+main{
+    height:100vh;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    padding:4rem;
+    gap:.1rem;
+}
+
+.card{
+    height:6rem;
+    width:100%;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 1rem;
+    animation:3s ease-in-out anim;
+}
+
+@keyframes anim{
+    from{
+        transform: translateX(200px);
+    }
+       to{
+           transform:translateX(0px);
+    }
+}
