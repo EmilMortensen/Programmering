@@ -6,10 +6,24 @@
     font-family:'Grechen+Fuemen';
 }
 
-footer{
-
+main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    gap:1rem;
+    width:50%;
+    height: 100vh;
+    font-size: 1.5rem;
 }
 
-main{
+.card{
+    padding: 1rem;
+    font-size:1.2rem;
+    box-shadow: 8px 8px black;
+    animation: 1s ease-in-out anim;
+}
 
+@keyframes anim{
+    from{opacity:0;}
+    to{opacity:1;}
 }
