@@ -5,3 +5,92 @@
     box-sizing:border-box;
     font-family:'Grechen+Fuemen';
 }
+
+#searchbar{
+    background-color:lightskyblue;
+    z-index: 2;
+    position: fixed;
+    top:-30vh;
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    place-items: center;   
+    transition: all .3s ease-in-out;
+}
+
+#searchbar.show{
+    top:0;
+}
+
+input{
+    width: 50vw;
+    font-size: 3rem;
+    border-radius: 2rem;
+    border:1px solid gray;
+    outline: none;
+}
+
+#searchicon, #close{
+    cursor: pointer;
+}
+
+
+header{
+    height:20vh;
+    padding: .5rem;
+    display: grid;
+    place-items:center;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    background:white;
+}
+
+#title{
+    border-bottom: .5rem purple solid;
+    padding: 0 1rem .5rem 1rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    gap:.5rem;
+    margin-top: 30vh;
+}
+
+.card{
+    height: 30vh;
+    background-color: lightslategray;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: .5rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    animation: comeIn 1s  ease-in-out;
+}
+
+.card h2{
+    display: grid;
+    place-items: center;
+}
+
+.card .members{
+    background-color: gray;
+    border-radius: 1rem;
+    padding:rem;
+    overflow-y: scroll;
+}
+
+@keyframes comeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.members::-webkit-scrollbar{
+    display: none;
+}
