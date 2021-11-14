@@ -19,7 +19,7 @@ fetch('./data/birds.json')
     })
 
     document.querySelector('#input').addEventListener('input', () => {
-        let result = data.filter( bird => bird.family.includes(document.querySelector('#input').value || ) )
+        let result = data.filter( bird => bird.family.includes(document.querySelector('#input').value || ) ) 
         document.querySelector('main').innerHTML = ''
         result.map( bird => newCard(bird) )
     })
