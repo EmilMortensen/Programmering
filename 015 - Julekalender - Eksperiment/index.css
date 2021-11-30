@@ -5,16 +5,8 @@
     box-sizing:border-box;
     font-family:'Grechen+Fuemen';
 }
-
 body{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-}
-
-img{
-    width: 100%;
+    background:rgb(214,0,28);
 }
 
 header{
@@ -22,7 +14,14 @@ header{
 }
 
 main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 2rem;
+}
 
+.door{
+    background-color: white;
+    
 }
 
 footer{
