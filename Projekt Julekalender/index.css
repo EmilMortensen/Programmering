@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Grechen+Fuemen';
+}
+
+body{
+    display:grid;
+    place-items: center;
+}
+
+.ny{
+    background-color: green;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 12px;
+    margin-top: 15px auto;
+    width: 8vw;
+    height:5vh;
+    gap: 10rem;
+}
+
+.indhold{
+    width: 80vw;
+    height: 150vh;
+    border: 5px solid black;
+    margin: 15px auto;
+    background-image:url(./assets/drukspil.jpg);
+    background-position: right;
+    background-size:cover;
+    box-shadow:7px 7px 25px green;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "door12 door14 door5 door18"
+    "door20 door23 door16 door7"
+    "door13 door1 door17 door24"
+    "door4 door11 door8 door3"
+    "door15 door10 door9 door22"
+    "door6 door19 door2 door21";
+}
+
+.image{
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    border: 2px solid black;
+    transition: opacity 2s;
+}
+
